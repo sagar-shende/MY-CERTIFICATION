@@ -1,0 +1,85 @@
+{
+  "name": "Credit Card Dashboard - Dark Gold",
+  "dataColors": [
+    "#E8B923",
+    "#2FA88A",
+    "#4A90D9",
+    "#D4AF37",
+    "#9B7FE0",
+    "#EB8F5A",
+    "#5FBFD9",
+    "#C6A15B",
+    "#7FB069",
+    "#D96C8C"
+  ],
+  "good": "#2FA88A",
+  "neutral": "#E8B923",
+  "bad": "#D64554",
+  "maximum": "#E8B923",
+  "center": "#4A90D9",
+  "minimum": "#25252F",
+  "null": "#5A5A64",
+
+  "firstLevelElements": "#F2F2F2",
+  "secondLevelElements": "#B8B8C0",
+  "thirdLevelElements": "#2E2E38",
+  "fourthLevelElements": "#6A6A76",
+  "background": "#1E1E26",
+  "secondaryBackground": "#2E2E38",
+  "tableAccent": "#E8B923",
+
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#E8B923"
+    },
+    "title": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#4A90D9"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F2F2F2"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#B8B8C0"
+    }
+  },
+
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{
+          "show": true,
+          "color": { "solid": { "color": "#1E1E26" } },
+          "transparency": 0
+        }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{
+          "color": { "solid": { "color": "#E8B923" } },
+          "fontSize": 28,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        "categoryLabels": [{
+          "show": true,
+          "color": { "solid": { "color": "#B8B8C0" } },
+          "fontSize": 11,
+          "fontFamily": "Segoe UI"
+        }],
+        "border": [{
+          "show": true,
+          "color": { "solid": { "color": "#2E2E38" } },
+          "radius": 8
+        }]
+      }
+    }
+  }
+}
